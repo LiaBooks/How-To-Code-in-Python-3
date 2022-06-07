@@ -17,7 +17,7 @@ persistent:  true
 
 logo:     media/cover.jpg
 
-import:   import: https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.2/README.md
+import:   https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.2/README.md
 
 @repl: @PyScript.repl(```@0```)
 
