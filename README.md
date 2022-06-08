@@ -5,7 +5,7 @@ date:     2017-10-26
 
 email:    LiaScript@web.de
 
-version:  1.0.0
+version:  1.0.1
 
 language: en
 
@@ -17,21 +17,22 @@ persistent:  true
 
 logo:     media/cover.jpg
 
-import:   https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.2/README.md
+import:   https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.3/README.md
 
 @repl: @PyScript.repl(```@0```)
 
 -->
 
-Author: Lisa Tagliaferri
-Publisher: DigitalOcean
+__Author__ Lisa Tagliaferri
+
+__Publisher__ DigitalOcean
 
 ![The Creative Commons Logo](media/file5.png)
 
 This work is licensed under a Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-ISBN 978-0-9997730-0-0
+__ISBN__ 978-0-9997730-0-0
 
 # How To Code in Python 3
 
@@ -1538,8 +1539,6 @@ print(poem.islower())
 
 Now we can run these small programs and see the output:
 
-Todo
-
 ``` bash  Output of movie string
 False
 True
@@ -1909,10 +1908,8 @@ Specifying the stride of 2 as the last parameter in the Python syntax
 `ss[0:12:2]` skips every other character. Let's look at the characters that are
 printed in red:
 
-todo
 
-[S]{.highlight}a[m]{.highlight}m[y]{.highlight}
-[S]{.highlight}h[a]{.highlight}r[k]{.highlight}!
+<span style="color:red">S</span>a<span style="color:red">m</span>m<span style="color:red">y</span><span style="color:red">S</span>h<span style="color:red">a</span>r<span style="color:red">k</span>!
 
 Note that the whitespace character at index number 5 is also skipped with a
 stride of 2 specified.
@@ -1930,7 +1927,7 @@ Specifying the stride of 4 as the last parameter in the Python syntax
 `ss[0:12:4]` prints only every fourth character. Again, let's look at the
 characters that are printed in red:
 
-[S]{.highlight}amm[y]{.highlight} Sh[a]{.highlight}rk!
+<span style="color:red">S</span>amm<span style="color:red">y</span> Sh<span style="color:red">a</span>rk!
 
 In this example the whitespace character is skipped as well.
 
@@ -1974,7 +1971,7 @@ string as no index numbers are included in the parameters, and reversing the
 string through the negative stride. Additionally, by having a stride of -2 we
 are skipping every other letter of the reversed string:
 
-[!]{.highlight}k[r]{.highlight}a[h]{.highlight}S[\[whitespace\]]{.highlight}y[m]{.highlight}m[a]{.highlight}S
+<span style="color:red">!</span>k<span style="color:red">r</span>a<span style="color:red">h</span>S y<span style="color:red">m</span>m<span style="color:red">a</span>S
 
 The whitespace character is printed in this example.
 
@@ -4868,9 +4865,9 @@ __Output__ `[0, 3, 6, 9, 12]`
 By printing out the list `numbers` with the stride set to `3`, only every third
 item is printed:
 
-[**0**]{.highlight}, 1, 2, [**3**]{.highlight}, 4, 5,
-[**6**]{.highlight}, 7, 8, [**9**]{.highlight}, 10, 11,
-[**12**]{.highlight}
+[**0**]<!--style="color:red"-->, 1, 2, [**3**]<!--style="color:red"-->, 4, 5,
+[**6**]<!--style="color:red"-->, 7, 8, [**9**]<!--style="color:red"-->, 10, 11,
+[**12**]<!--style="color:red"-->
 
 Slicing lists with both positive and negative index numbers and indicating
 stride provides us with the control to manipulate lists and receive the output
@@ -5882,9 +5879,9 @@ __Output__ `(0, 3, 6, 9, 12)`
 By printing out the tuple `numbers` with the stride set to `3`, only every third
 item is printed:
 
-[**0**]{.highlight}, 1, 2, [**3**]{.highlight}, 4, 5,
-[**6**]{.highlight}, 7, 8, [**9**]{.highlight}, 10, 11,
-[**12**]{.highlight}
+[**0**]<!--style="color:red"-->, 1, 2, [**3**]<!--style="color:red"-->, 4, 5,
+[**6**]<!--style="color:red"-->, 7, 8, [**9**]<!--style="color:red"-->, 10, 11,
+[**12**]<!--style="color:red"-->
 
 Slicing tuples with both positive and negative index numbers and indicating
 stride provides us with the control to receive the output we're trying to
