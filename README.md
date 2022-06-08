@@ -13018,7 +13018,7 @@ PC?" click on "Yes."
 Once you do this, you'll see a text-based interface that has a string of words
 that looks like this:
 
-![Windows 10 PowerShell](vertopal_6ca239172cf14338916843cbb4f0951c/media/file2.png)
+![Windows 10 PowerShell](media/file2.png)
 
 We can switch out of the system folder by typing the following command:
 
