@@ -5,7 +5,7 @@ date:     2017-10-26
 
 email:    LiaScript@web.de
 
-version:  1.0.1
+version:  1.0.2
 
 language: en
 
@@ -17,7 +17,7 @@ persistent:  true
 
 logo:     media/cover.jpg
 
-import:   https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.3/README.md
+import:   https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.4/README.md
 
 @repl: @PyScript.repl(```@0```)
 
